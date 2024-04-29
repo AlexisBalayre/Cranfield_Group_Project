@@ -1,0 +1,33 @@
+/file/set-tui-version "23.2"
+
+/file/read-case Re_2000(to_read).cas.h5
+	
+/define/materials/change-create air air yes constant 1 no no yes constant 2.30000e-05 no no no
+
+/mesh/modify-zones/make-periodic 14 15 no yes yes
+/mesh/modify-zones/make-periodic 16 17 no yes yes
+
+/define/boundary-conditions/fluid 10 no yes 0 1 yes 0.00210 0 0 0 0 no no no 0 no 0 no 0 no 0 no 0 no 1 no no no no no
+
+/solve/monitors/residual/convergence-criteria 1e-6 1e-6 1e-6 1e-6 1e-6 1e-6
+
+/solve/set/discretization-scheme mom 0
+/solve/set/discretization-scheme k 0
+/solve/set/discretization-scheme omega 0
+
+/solve/initialize/set-defaults x-velocity 1
+/solve/initialize/initialize-flow yes
+/solve/iterate 100
+
+/solve/set/discretization-scheme mom 1
+/solve/set/discretization-scheme k 1
+/solve/set/discretization-scheme omega 1
+
+/solve/initialize/set-defaults x-velocity 1
+/solve/iterate 10000
+
+/plot/plot yes U no no no x-velocity no no y-coordinate line ()
+/plot/plot yes Dudy no no no dx-velocity-dy no no y-coordinate line ()
+/plot/plot yes P no no no pressure no no y-coordinate line ()
+/plot/plot yes y+ no no no y-plus no no y-coordinate line ()
+/plot/plot yes k no no no turb-kinetic-energy no no y-coordinate line ()	
