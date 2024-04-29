@@ -16,7 +16,7 @@
 
 - **Software_repo** : Contains the code for the software part of the project
 - **CFD_repo** : Contains the code for the CFD part of the project
-- **PySINDy_Models_repo** : Gather several python scripts that were used at the begining of the project to understand, analyse the data and explore some draft ML models.
+- **PySINDy_Models_repo** : Gather several jupyter notebook scripts that were used at the beginning of the project to understand and analyze different implementations of PySINDy models.
 
 ### How to explore the project
 
