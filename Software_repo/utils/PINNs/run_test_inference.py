@@ -20,10 +20,10 @@ def run_test_inference(
         prediction_dataset_path (str): Path to the prediction dataset CSV file.
         prediction_output_path (str): Path to save the prediction output CSV file.
     """
-    # Initialize the data module with the test dataset path
+    # Initialise the data module with the test dataset path
     data_module = TurbulenceDataModule(
         batch_size=64,  # Adjust based on your system's memory capacity
-        num_workers=0,  # Adjust based on your system's capabilities
+        num_workers=8,  # Adjust based on your system's capabilities
         test_dataset_path=test_dataset_path,
     )
 

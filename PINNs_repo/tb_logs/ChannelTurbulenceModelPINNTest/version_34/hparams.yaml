@@ -1,0 +1,5 @@
+activation: tanh
+batch_size: 32
+hidden_depth: 4
+hidden_dim: 32
+input_dim: 5

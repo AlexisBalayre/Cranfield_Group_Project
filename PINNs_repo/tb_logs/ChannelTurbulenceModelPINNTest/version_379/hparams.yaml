@@ -1,0 +1,16 @@
+activation: selu
+batch_size: 32
+hidden_depth: 2
+hidden_dim: 256
+input_dim: 5
+loss_bound_P_weight: 1
+loss_bound_U_weight: 1
+loss_bound_dUdy_weight: 1
+loss_bound_k_weight: 1
+loss_bound_stress_weight: 1
+loss_phys_k_weight: 1
+loss_phys_momentum_weight: 1
+lr: 0.0005
+max_steps: 36000
+output_dim: 8
+rho: 1.225

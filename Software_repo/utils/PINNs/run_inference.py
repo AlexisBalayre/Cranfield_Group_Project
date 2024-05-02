@@ -22,7 +22,7 @@ def run_inference(
     # Initialize the data module with the test dataset path
     data_module = TurbulenceDataModule(
         batch_size=64,  # Adjust based on your system's memory capacity
-        num_workers=0,  # Adjust based on your system's capabilities
+        num_workers=8,  # Adjust based on your system's capabilities
     )
 
     # Load the model from the checkpoint
