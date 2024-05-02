@@ -70,7 +70,17 @@ This will process your dataset, train the model according to predefined specific
 
 Tailor the model architecture and training configurations to meet specific requirements by modifying the `train_model.py` script. Parameters such as input dimensions, the architecture of hidden layers, learning rates, and more can be adjusted to optimize performance for different turbulence characteristics.
 
-### Visualising Training and Evaluation Metrics
+#### Hyperparameter Tuning
+
+To perform hyperparameter tuning, run the `find_best_hyperparams.py` script:
+
+```bash
+python find_best_hyperparams.py
+```
+
+This script will search for the best hyperparameters based on the specified search space and evaluation criteria. You can modify the hyperparameter search space and evaluation metrics to suit your specific needs.
+
+#### Visualising Training Progress
 
 Launch TensorBoard to visualise the training and evaluation metrics:
 
