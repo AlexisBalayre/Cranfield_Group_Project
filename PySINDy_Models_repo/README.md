@@ -24,7 +24,7 @@ This file is used to train, simulate and evaluate the PySINDy model combined wit
 
 ## 6. PySINDy_GA_Model.ipynb
 
-This file is used to train, simulate and evaluate the PySINDy model optimized by the GA.
+This file is used to train, simulate and evaluate the PySINDy model optimised by the GA.
 
 ## 7. Comparison.ipynb
 

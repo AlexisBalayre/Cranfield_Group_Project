@@ -18,6 +18,7 @@ This project focuses on the innovative integration of machine learning with comp
 ### Repository Structure
 - **Software_repo:**: This directory contains the core codebase developed for the software aspect of our project. It includes the machine learning models and the necessary infrastructure to integrate these models with traditional CFD workflows.
 - **CFD_repo:** The code pertinent to the computational fluid dynamics component of our research is stored here. It encompasses simulations, traditional turbulence models, and the interface for integrating with our machine learning enhancements.
+- **PINNs_repo:**: This section houses the codebase for the Physics-Informed Neural Networks (PINNs) model. It provides a detailed overview of the model architecture, data handling, training, evaluation, and visualisation components.
 - **PySINDy_Models_repo:**: Early exploratory work involving PySINDy models is documented in this folder. It contains Jupyter notebooks that elucidate our journey in understanding and applying PySINDy models to the project's objectives. This section provides valuable insights into the developmental phase of our research
 
 ### Navigating the Project

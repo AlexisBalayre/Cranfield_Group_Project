@@ -9,7 +9,7 @@ TurbulenceModelPINN offers a sophisticated approach to predicting turbulence dyn
 - **Efficient Data Handling:** Incorporates a tailored data module for optimal data manipulation, including loading, preprocessing, and batching operations.
 - **Streamlined Model Training:** Harnesses PyTorch Lightning's advanced training capabilities to enhance model development efficiency and reproducibility.
 - **Comprehensive Evaluation Framework:** Implements thorough evaluation methodologies on dedicated test datasets, facilitating accurate assessment of model performance against standard benchmarks.
-- **In-depth Experiment Tracking:** Employs TensorBoard integration for detailed tracking of training processes, offering insightful visualizations of key metrics and model behavior over time.
+- **In-depth Experiment Tracking:** Employs TensorBoard integration for detailed tracking of training processes, offering insightful visualisations of key metrics and model behavior over time.
 
 ## Folder Structure
 
@@ -25,8 +25,8 @@ PINNs_repo/
 │   └── TurbulenceModelPINN.py   # Physics-Informed Neural Network model
 ├── results/
 │   ├── raw_data/              # Directory for storing raw data files
-│   ├── figures/           # Directory for storing visualization outputs
-│   └── visualisation.ipynb    # Jupyter notebook for visualizing results
+│   ├── figures/           # Directory for storing visualisation outputs
+│   └── visualisation.ipynb    # Jupyter notebook for visualising results
 ├── tb_logs/               # Directory for storing TensorBoard logs and model checkpoints
 ├── find_best_hyperparams.py  # Script for hyperparameter tuning
 ├── requirements.txt       # File containing required dependencies
@@ -68,7 +68,7 @@ python train_model.py
 
 This will process your dataset, train the model according to predefined specifications, and generate logs of the training session in the `tb_logs/` directory. The weights of the trained model will be saved in the `checkpoints/` subdirectory of each version. For instance, the best weights of the model training Version 1 will be saved in `tb_logs/ChannelTurbulenceModelPINN/version_1/checkpoints/`.
 
-Tailor the model architecture and training configurations to meet specific requirements by modifying the `train_model.py` script. Parameters such as input dimensions, the architecture of hidden layers, learning rates, and more can be adjusted to optimize performance for different turbulence characteristics.
+Tailor the model architecture and training configurations to meet specific requirements by modifying the `train_model.py` script. Parameters such as input dimensions, the architecture of hidden layers, learning rates, and more can be adjusted to optimise performance for different turbulence characteristics.
 
 #### Hyperparameter Tuning
 
