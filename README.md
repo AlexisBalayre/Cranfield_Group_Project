@@ -16,6 +16,8 @@
 
 This project focuses on the innovative integration of machine learning with computational fluid dynamics (CFD) to address the limitations of traditional turbulence models. By incorporating Physically Informed Neural Networks (PINNs) and employing the Sparse Identification of Nonlinear Dynamical Systems (PySINDy) approach, we aim to improve the accuracy and efficiency of turbulent flow simulations. This interdisciplinary effort aims to harness the power of high-performance computing to revolutionise the predictive modelling of fluid dynamics.
 
+<img width="1512" alt="Screenshot 2024-05-03 at 14 18 57 1" src="https://github.com/AlexisBalayre/Cranfield_Group_Project/assets/60859013/ff488823-93ac-4745-9337-565807c7dad7">
+
 ### Repository Structure
 
 - **Software_repo:** This directory contains the core codebase developed for the software aspect of our project. It includes the machine learning models and the necessary infrastructure to integrate these models with traditional CFD workflows.
