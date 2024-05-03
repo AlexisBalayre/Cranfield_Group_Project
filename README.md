@@ -1,6 +1,6 @@
 # Cranfield Group Project Technical Documentation
 
-## Cranfield Coop: High-End Computing for Turbulence Modeling - Group 2
+## High-End Computing for Turbulence Modeling 
 
 ### Team Members
 
